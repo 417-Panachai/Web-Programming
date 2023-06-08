@@ -1,0 +1,30 @@
+.UserColWelcome{
+    margin-left: 3rem;
+    font-size: 50px;
+    font-weight: bold;
+}
+.UserColItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+}
+.items{
+    width: 400px; /*350*/
+    height: 200px;
+    background-color: #CAC0B3;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    
+    box-sizing: border-box;
+}
+.itemImg{
+    width: 400px; /*350*/
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+#goToColPage{
+    padding: 0px;
+}

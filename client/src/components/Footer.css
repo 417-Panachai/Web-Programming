@@ -1,0 +1,38 @@
+footer{
+    background-color: #002349;
+    color: white;
+    /* background-color: #a1b5ca; */
+    height: 22vh;
+    /* height: 1vh; */
+    /* min-height: 10rem; */
+    min-height: 3.5rem;
+    box-sizing: border-box;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+.contact{
+    display: flex;
+}
+.social_media{
+    display: flex;
+    flex-direction: column;
+}
+.social_media > a{
+    margin: 0px;
+    margin-left: 3rem;
+    padding: 0px;
+}
+p.phone{
+    margin: 0px;
+    margin-left: 5rem;
+}
+footer > p{
+    margin-left: 1.5rem;
+}

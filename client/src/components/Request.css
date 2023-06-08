@@ -1,0 +1,71 @@
+.RequestWelcome{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.RequestForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #CAC0B3;
+    /* margin-bottom: 5rem; */
+}
+.RequestElement{
+    width: 300px;
+    margin: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+.RequestSubmit{
+    width: 100px;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    background-color: #29C367;
+    color: white;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+#photoRequestLabel{
+    /* padding: 5rem; */
+
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #fdf0df;
+    cursor: pointer;
+}
+.photoRequestContainer{
+    margin-top: 0.5rem;
+}
+#photoRequest{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+.goToSingInContainer{
+    display: flex;
+    justify-content: center;
+}
+.RequestForm ::placeholder {
+    color: rgb(0, 0, 0);
+}
+#RequestSubmit:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.navBarCom{
+    background-color: #002349;
+    height: 8vh;
+    min-height: 3.5rem;
+    box-sizing: border-box;
+    font-size: 17px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+.nav-left{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-right{
+    display: flex;
+    flex-wrap: nowrap;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.searchCoin{
+    width: 500px;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 17px;
+}
+.navBarForm ::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* margin-top: 0.2rem; */
+}
+.dropbtn {
+    background-color: #002349;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+    width: 10rem;
+    text-align: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    width: 10rem;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} */
+
+
+
+
+
+
+@media (max-width: 1020px) {
+    .canHide{
+        display: none;
+    }
+    .searchCoin{
+        width: 350px;
+    }
+}
+@media (max-width: 750px) {
+    .canHideSmaller{
+        display: none;
+    }
+    .searchCoin{
+        width: 250px;
+    }
+}

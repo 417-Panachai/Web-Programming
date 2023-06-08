@@ -1,0 +1,97 @@
+.ItemPageWelcome{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.itemInfoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3.5rem;
+
+    background-color: #CAC0B3;
+}
+.ItemPhotoInfo{
+    /*350*/
+    width: 40%;
+    height: 20%;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.ItemInfo{
+    margin: 1rem;
+}
+
+@media (max-width: 1020px) {
+    .ItemPhotoInfo{
+        width: 400px;
+        height: 200px;
+        margin: 1rem;
+        border-radius: 0.5rem;
+        
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+}
+@media (max-width: 750px) {
+    .itemInfoContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 3.5rem;
+
+        background-color: #CAC0B3;
+    }
+    .ItemPhotoInfo{
+        width: 400px;
+        height: 200px;
+        margin: 1rem;
+        border-radius: 0.5rem;
+        
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+}
+#heart{
+    width: 100px;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    background-color: #29C367;
+    color: white;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+#heart:hover{
+    cursor: pointer;
+}
+#likeHeart{
+    width: 100px;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    background-color: #FF595A;
+    color: white;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+#likeHeart{
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}

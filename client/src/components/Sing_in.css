@@ -1,0 +1,58 @@
+.singInWelcome{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.singInForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #CAC0B3;
+}
+.singInElement{
+    width: 300px;
+    margin: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+.singInSubmit{
+    width: 100px;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    background-color: #29C367;
+    color: white;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+#userName{
+    margin-top: 1rem;
+}
+#goToRegister{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    width: 10rem;
+}
+.goToRegisterContainer{
+    display: flex;
+    justify-content: center;
+}
+.singInForm ::placeholder {
+    color: rgb(0, 0, 0);
+    /* opacity: 1; */
+}
+#singInSubmit:hover{
+    cursor: pointer;
+}

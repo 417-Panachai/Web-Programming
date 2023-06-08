@@ -1,0 +1,16 @@
+.landingContainer{
+    display: flex;
+}
+.titleHomePage{
+
+}
+.homeCoinContainer{
+    background-color: #CAC0B3;
+    position: absolute;
+    right: 0rem;
+    padding: 1rem;
+    height: 100vh;
+}
+.homeCoin{
+    width: 20rem;
+}

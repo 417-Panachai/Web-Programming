@@ -1,0 +1,41 @@
+.userInfoWelcome{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.userInfoDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #CAC0B3;
+}
+.userPhoto{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+
+    margin: 1rem;
+}
+/* .elementUser{
+    display: flex;
+    width: 15rem;
+} */
+/* .edit{
+    width: 100px;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 2rem;
+
+    background-color: #29C367;
+    color: white;
+
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
+}
+#edit:hover{
+    cursor: pointer;
+} */
